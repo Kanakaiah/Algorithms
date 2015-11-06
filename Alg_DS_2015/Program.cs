@@ -34,10 +34,19 @@ namespace Alg_DS_2015
                 Print(item);
             }
 
+            Print("--------------------------");
+            dp.Transform1(ref intval, dp.Sqaure);
+            foreach (var item in intval)
+            {
+                Print(item);
+            }
 
             Console.Read();
         }
 
+        
+
+        
 
         public static void Print<T>(T val)
         {

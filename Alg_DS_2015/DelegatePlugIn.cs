@@ -7,20 +7,39 @@ using System.Threading.Tasks;
 namespace Alg_DS_2015
 {
 
-    public delegate int Transformer(int x);
 
+    public delegate int Transformer(int x);
 
     public class DelegatePlugin
     {
 
         public void Transform(ref int[] array, Transformer t)
         {
-            for (int i=0;i<array.Length;i++)
+            for (int i = 0; i < array.Length; i++)
             {
                 array[i] = t(array[i]);
             }
         }
 
-        public int Sqaure(int x) => x* x;
+
+        public void Transform1(ref int[] array, Func<int,int> t)
+        {
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = t(array[i]);
+            }
+        }
+
+        public int Sqaure(int x) => x * x;
+
+
+
+       
     }
 }
+
+
+
+
+
+

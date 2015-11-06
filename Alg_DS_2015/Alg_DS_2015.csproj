@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClassVirtual.cs" />
+    <Compile Include="DelegatePlugIn.cs" />
     <Compile Include="NestedType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

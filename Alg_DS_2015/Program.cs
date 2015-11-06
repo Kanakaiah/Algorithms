@@ -19,12 +19,23 @@ namespace Alg_DS_2015
             //Console.WriteLine(cmm.Liability);
 
             //2.
-            NestedType nsType = new NestedType();
-            Print(NestedType.Color.Green);
-            NestedType.NestedLevel1 nslevel1 = new NestedType.NestedLevel1() {Name="Jesus Christ",Id=7 };
-            Print(nslevel1.Name + " " + nslevel1.Id.ToString());
-            Console.Read();
+            //NestedType nsType = new NestedType();
+            //Print(NestedType.Color.Green);
+            //NestedType.NestedLevel1 nslevel1 = new NestedType.NestedLevel1() {Name="Jesus Christ",Id=7 };
+            //Print(nslevel1.Name + " " + nslevel1.Id.ToString());
 
+            //3.
+            DelegatePlugin dp = new DelegatePlugin();
+            int[] intval = { 1, 2, 3 };
+            dp.Transform(ref intval, dp.Sqaure);
+
+            foreach (var item in intval)
+            {
+                Print(item);
+            }
+
+
+            Console.Read();
         }
 
 

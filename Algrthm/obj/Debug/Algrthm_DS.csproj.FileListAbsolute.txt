@@ -1,0 +1,9 @@
+c:\users\v-kaetip\documents\visual studio 2015\Projects\Algrthm_DS\Algrthm_DS\bin\Debug\Algrthm_DS.exe.config
+c:\users\v-kaetip\documents\visual studio 2015\Projects\Algrthm_DS\Algrthm_DS\bin\Debug\Algrthm_DS.exe
+c:\users\v-kaetip\documents\visual studio 2015\Projects\Algrthm_DS\Algrthm_DS\bin\Debug\Algrthm_DS.pdb
+c:\users\v-kaetip\documents\visual studio 2015\Projects\Algrthm_DS\Algrthm_DS\obj\Debug\Algrthm_DS.csprojResolveAssemblyReference.cache
+c:\users\v-kaetip\documents\visual studio 2015\Projects\Algrthm_DS\Algrthm_DS\obj\Debug\Algrthm_DS.exe
+c:\users\v-kaetip\documents\visual studio 2015\Projects\Algrthm_DS\Algrthm_DS\obj\Debug\Algrthm_DS.pdb
+C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm_DS\bin\Debug\Algrthm_DS.exe.config
+C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm_DS\obj\Debug\Algrthm_DS.exe
+C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm_DS\obj\Debug\Algrthm_DS.pdb

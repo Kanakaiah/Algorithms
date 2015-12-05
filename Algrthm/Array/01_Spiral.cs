@@ -8,7 +8,7 @@ namespace Algrthm_DS.Array
 {
     public static class _01_Spiral
     {
-        public static string GetFromArray(string[,] input)
+        public static string GetFromArray(int[,] input)
         {
             int row = input.GetLength(0); //3
             int col = input.GetLength(1); //3
@@ -21,17 +21,17 @@ namespace Algrthm_DS.Array
                 counter += 1;
             }
 
-            return result;
+            return result.Trim();
         }
 
-        public static void traverse(ref int row, ref int counter, ref string result, ref byte direction, string[,] input)
+        public static void traverse(ref int row, ref int counter, ref string result, ref byte direction, int[,] input)
         {
             byte isMatrixOddNum = 0;
 
             if (direction == 1)
                 for (int i = counter; i < row - 1; i++)
                 {
-                    result += input[counter, i] + "->";
+                    result += input[counter, i].ToString() + " ";
                     direction = 2; //row -= 1;
                     isMatrixOddNum = 1;
                 }
@@ -39,14 +39,14 @@ namespace Algrthm_DS.Array
                 for (int i = counter; i < row - 1; i++)
                 {
 
-                    result += input[i, row - 1] + "->";
+                    result += input[i, row - 1].ToString() + " ";
                     direction = 3;
 
                 }
             if (direction == 3)
                 for (int i = row - 1; i > counter; i--)
                 {
-                    result += input[row - 1, i] + "->";
+                    result += input[row - 1, i].ToString() + " ";
                     direction = 4;
 
                 }
@@ -55,13 +55,13 @@ namespace Algrthm_DS.Array
             if (direction == 4)
                 for (int i = row - 1; i > counter; i--)
                 {
-                    result += input[i, counter] + "->";
+                    result += input[i, counter].ToString() + " ";
                     direction = 1;
                 }
 
             if(isMatrixOddNum==0)
             {
-                result += input[row-1, row-1] + "->";
+                result += input[row-1, row-1].ToString() + " ";
             }
             row -= 1;
 

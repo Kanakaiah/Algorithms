@@ -68,6 +68,7 @@ namespace Algrthm_DS.Array.Tests
             Assert.AreEqual<string>(expectedResult, actualResult.Trim());
 
         }
+       
         [TestMethod()]
         public void GetFromArrayTest4()
         {
@@ -84,10 +85,41 @@ namespace Algrthm_DS.Array.Tests
 
         }
 
+        [TestMethod()]
+        public void GetFromArrayTest5()
+        {
+            int[,] Tablero = new int[5, 5] {{1,2,3,4,5},
+                                                  {16,17,18,19,6},
+                                                  {15,24,25,20,7},
+                                                  {14,23,22,21,8},
+                                                  {13,12,11,10,9}
+            };
+            StringBuilder str1 = new StringBuilder();
+            for (int i = 0; i < Tablero.GetLength(0); i++)
+            {
+                for (int j = 0; j < Tablero.GetLength(1); j++)
+                {
+                    str1.Append(Tablero[i, j]);
+                }
+            }
+            string expectedResult = str1.ToString();
+            var resultArray = Algrthm_DS.Array._01_Spiral_v3.GetSpiral(5);
+
+            StringBuilder str2 = new StringBuilder();
+            for (int i = 0; i < resultArray.GetLength(0); i++)
+            {
+                for (int j = 0; j < resultArray.GetLength(1); j++)
+                {
+                    str2.Append(resultArray[i, j]);
+                }
+            }
+            string actualResult = str2.ToString();
+
+            Assert.AreEqual<string>(expectedResult, actualResult);
+
+        }
 
 
 
-
-        
     }
 }

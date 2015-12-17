@@ -46,14 +46,15 @@
     <Compile Include="Array\01_Spiral.cs" />
     <Compile Include="Array\01_Spiral_v2.cs" />
     <Compile Include="Array\01_Spiral_v3.cs" />
+    <Compile Include="LinkedList\Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <Folder Include="String\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="String\" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

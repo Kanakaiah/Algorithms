@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algrthm_DS.Array
+namespace Algrthm.Array
 {
     public class _01_Spiral_v3
     {

@@ -1,12 +1,12 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Algrthm_DS.Array;
+using Algrthm.Array;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algrthm_DS.Array.Tests
+namespace Algrthm.Array.Tests
 {
     [TestClass()]
     public class _1_SpiralTests
@@ -23,8 +23,8 @@ namespace Algrthm_DS.Array.Tests
             };
 
             string expectedResult = "0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35";
-            //string actualResult = Algrthm_DS.Array._01_Spiral.GetFromArray(Tablero);
-            string actualResult = Algrthm_DS.Array._01_Spiral_v2.GetSpiral(Tablero);
+            //string actualResult = Algrthm.Array._01_Spiral.GetFromArray(Tablero);
+            string actualResult = Algrthm.Array._01_Spiral_v2.GetSpiral(Tablero);
 
 
             Assert.AreEqual<string>(expectedResult, actualResult.Trim());
@@ -41,8 +41,8 @@ namespace Algrthm_DS.Array.Tests
             };
 
             string expectedResult = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16";
-            //string actualResult = Algrthm_DS.Array._01_Spiral.GetFromArray(Tablero);
-            string actualResult = Algrthm_DS.Array._01_Spiral_v2.GetSpiral(Tablero);
+            //string actualResult = Algrthm.Array._01_Spiral.GetFromArray(Tablero);
+            string actualResult = Algrthm.Array._01_Spiral_v2.GetSpiral(Tablero);
 
 
             Assert.AreEqual<string>(expectedResult, actualResult.Trim());
@@ -61,8 +61,8 @@ namespace Algrthm_DS.Array.Tests
             };
 
             string expectedResult = "1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25";
-            //string actualResult = Algrthm_DS.Array._01_Spiral.GetFromArray(Tablero);
-            string actualResult = Algrthm_DS.Array._01_Spiral_v2.GetSpiral(Tablero);
+            //string actualResult = Algrthm.Array._01_Spiral.GetFromArray(Tablero);
+            string actualResult = Algrthm.Array._01_Spiral_v2.GetSpiral(Tablero);
 
 
             Assert.AreEqual<string>(expectedResult, actualResult.Trim());
@@ -78,7 +78,7 @@ namespace Algrthm_DS.Array.Tests
 
 
             string expectedResult = "1 2 3 4 5 6 12 18 17 16 15 14 13 7 8 9 10 11";
-            string actualResult = Algrthm_DS.Array._01_Spiral_v2.GetSpiral(Tablero);
+            string actualResult = Algrthm.Array._01_Spiral_v2.GetSpiral(Tablero);
 
 
             Assert.AreEqual<string>(expectedResult, actualResult.Trim());
@@ -103,7 +103,7 @@ namespace Algrthm_DS.Array.Tests
                 }
             }
             string expectedResult = str1.ToString();
-            var resultArray = Algrthm_DS.Array._01_Spiral_v3.GetSpiral(5);
+            var resultArray = Algrthm.Array._01_Spiral_v3.GetSpiral(5);
 
             StringBuilder str2 = new StringBuilder();
             for (int i = 0; i < resultArray.GetLength(0); i++)

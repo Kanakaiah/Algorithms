@@ -7,8 +7,8 @@
     <ProjectGuid>{F2E2642A-3530-4705-A86D-738CA3F399EE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Algrthm_DS</RootNamespace>
-    <AssemblyName>Algrthm_DS</AssemblyName>
+    <RootNamespace>Algrthm</RootNamespace>
+    <AssemblyName>Algrthm</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,7 @@
     <Compile Include="Array\01_Spiral.cs" />
     <Compile Include="Array\01_Spiral_v2.cs" />
     <Compile Include="Array\01_Spiral_v3.cs" />
+    <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

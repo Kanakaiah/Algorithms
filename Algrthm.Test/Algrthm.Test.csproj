@@ -54,6 +54,9 @@
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="String\Permutation.cs" />
+    <Compile Include="String\UniqueCharacter.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algrthm\Algrthm.csproj">

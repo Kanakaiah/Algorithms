@@ -4,7 +4,6 @@ C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm.Test\bin\Debug\Algrthm.Tes
 C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm.Test\bin\Debug\Algrthm.exe
 C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm.Test\bin\Debug\Algrthm.pdb
-C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm.Test\obj\Debug\Algrthm.Test.dll
 C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm.Test\obj\Debug\Algrthm.Test.pdb
 C:\Users\KK\Source\Repos\Algorithms\Algrthm.Test\obj\Debug\Algrthm.Test.csprojResolveAssemblyReference.cache

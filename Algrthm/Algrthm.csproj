@@ -46,6 +46,7 @@
     <Compile Include="Array\01_Spiral.cs" />
     <Compile Include="Array\01_Spiral_v2.cs" />
     <Compile Include="Array\01_Spiral_v3.cs" />
+    <Compile Include="Interviews\MS\WordReverse.cs" />
     <Compile Include="LanguageFeatures\ClassVirtual.cs" />
     <Compile Include="LanguageFeatures\DelegatePlugIn.cs" />
     <Compile Include="LanguageFeatures\NestedType.cs" />

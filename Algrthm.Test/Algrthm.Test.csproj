@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Array\_01_SpiralTests.cs" />
+    <Compile Include="Interviews\MS\WordReverse.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

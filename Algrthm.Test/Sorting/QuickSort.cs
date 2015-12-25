@@ -14,7 +14,7 @@ namespace Algrthm.Test.Sorting
         public void Sort()
         {
             Algrthm.Sorting.QuickSort<int> qSort = new Algrthm.Sorting.QuickSort<int>();
-            int[] array = { 10, 45, 12, 21, 6, 34, 9, 24, 16, 18 };
+            int[] array = { 10, 45, 12, 21 , 6, 34, 9, 24, 16, 18 };
 
             qSort.Sort(array);
 

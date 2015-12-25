@@ -49,6 +49,8 @@
     <Compile Include="Interviews\MS\WordReverse.cs" />
     <Compile Include="LanguageFeatures\ClassVirtual.cs" />
     <Compile Include="LanguageFeatures\DelegatePlugIn.cs" />
+    <Compile Include="LanguageFeatures\Enumerator\Student.cs" />
+    <Compile Include="LanguageFeatures\Enumerator\StudentCollection.cs" />
     <Compile Include="LanguageFeatures\NestedType.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\Node.cs" />

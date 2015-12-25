@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algrthm.LanguageFeatures.Enumerator;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -41,37 +42,69 @@ namespace Algrthm_DS
             //{
             //    Print(item);
             //}
+            /*
+                        Transformer t = Square;
+                        int[] values = { 1, 2, 3, 4, 5 };
+                        Transform(values, t);
 
-            Transformer t = Square;
-            int[] values = { 1, 2, 3, 4, 5 };
-            Transform(values, t);
-            foreach (var item in values)
+                        foreach (var item in values)
+                        {
+                            Print(item);
+                        }
+                        Func<int, int> d1 = Square;
+
+                        Transform1(values, d1);
+
+                        foreach (var item in values)
+                        {
+                            Print(item);
+                        }
+
+                        Console.Read();
+                    }
+
+                    public delegate int Transformer(int x);
+
+                    public static int Square(int x)
+                    {
+                        return x * x;
+                    }
+
+                    public static void Transform(int[] values, Transformer T)
+                    {
+                        for (int i = 0; i < values.Length; i++)
+                        {
+                            values[i] = T(values[i]);
+                        }
+                    }
+
+                    public static void Transform1(int[] values, Func<int,int> T)
+                    {
+                        for (int i = 0; i < values.Length; i++)
+                        {
+                            values[i] = T(values[i]);
+                        }
+                    }
+
+
+
+                    public static void Print<T>(T val)
+                    {
+                        Console.WriteLine(val);
+                    }
+                    */
+
+            StudentCollection collections = new StudentCollection();
+            collections.AddStudent(new Student(100, "KK"));
+            collections.AddStudent(new Student(101, "Vikram"));
+            collections.AddStudent(new Student(102, "John"));
+            collections.AddStudent(new Student(103, "Paul"));
+
+
+            foreach (Student item in collections)
             {
-                Print(item);
+                Console.WriteLine($"Employee Id:{item.Id}  , his Name:{item.Name}");
             }
-
-            Console.Read();
-        }
-
-        public delegate int Transformer(int x);
-
-        public static int Square(int x)
-        {
-            return x * x;
-        }
-
-        public static void Transform(int[] values, Transformer T)
-        {
-            for (int i = 0; i < values.Length; i++)
-            {
-                values[i] = T(values[i]);
-            }
-        }
-
-
-        public static void Print<T>(T val)
-        {
-            Console.WriteLine(val);
         }
     }
 }

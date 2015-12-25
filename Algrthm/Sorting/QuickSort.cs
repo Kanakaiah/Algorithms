@@ -13,11 +13,13 @@ namespace Algrthm.Sorting
         {
             quicksort(items, 0, items.Length - 1);
         }
+        int counter=0;
 
         private void quicksort(T[] items, int left, int right)
         {
             if (left < right)
             {
+                counter++;
                 int pivotIndex = _pivotRng.Next(left, right);
                 int newPivot = partition(items, left, right, pivotIndex);
 

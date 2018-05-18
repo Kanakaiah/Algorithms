@@ -17,6 +17,8 @@ namespace Algrthm.Test.String
 
             Debug.WriteLine(Algrthm.String.Permutation.AreThesePermutation("Man   ", "   naM"));
 
+            Assert.AreEqual(true, Algrthm.String.Permutation.AreThesePermutation("Man   ", "   naM"));
+
         }
 
     }

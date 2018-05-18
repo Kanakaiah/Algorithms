@@ -50,14 +50,19 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Array\EqualSidesOfAnArrayTest.cs" />
     <Compile Include="Array\_01_SpiralTests.cs" />
+    <Compile Include="General\SumOfDigitsOrDigitalRootTest.cs" />
     <Compile Include="Interviews\MS\WordReverse.cs" />
     <Compile Include="LinkedList\LinkedList.cs" />
     <Compile Include="LinkedList\Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="String\ExesAndOhsTest.cs" />
+    <Compile Include="String\JadenCaseTest.cs" />
     <Compile Include="String\Permutation.cs" />
     <Compile Include="String\UniqueCharacter.cs" />
+    <Compile Include="String\UniqueInOrder.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Algrthm\Algrthm.csproj">

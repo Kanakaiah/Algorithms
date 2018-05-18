@@ -46,6 +46,8 @@
     <Compile Include="Array\01_Spiral.cs" />
     <Compile Include="Array\01_Spiral_v2.cs" />
     <Compile Include="Array\01_Spiral_v3.cs" />
+    <Compile Include="Array\EqualSidesOfAnArray.cs" />
+    <Compile Include="General\SumOfDigitsOrDigitalRoot.cs" />
     <Compile Include="Interviews\MS\WordReverse.cs" />
     <Compile Include="LanguageFeatures\ClassVirtual.cs" />
     <Compile Include="LanguageFeatures\DelegatePlugIn.cs" />
@@ -57,8 +59,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sorting\QuickSort.cs" />
+    <Compile Include="String\ExesAndOhs.cs" />
+    <Compile Include="String\JadenCase.cs" />
     <Compile Include="String\Permutation.cs" />
     <Compile Include="String\UniqueCharacter.cs" />
+    <Compile Include="String\UniqueInOrder.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

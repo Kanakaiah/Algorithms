@@ -9,3 +9,9 @@ C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm\bin\Debug\Algrthm.exe
 C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm\bin\Debug\Algrthm.pdb
 C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm\obj\Debug\Algrthm.exe
 C:\Users\v-kaetip\Documents\GitHub\Algorithms\Algrthm\obj\Debug\Algrthm.pdb
+C:\Users\ketipakam\Source\repos\Algorithms\Algrthm\bin\Debug\Algrthm.exe.config
+C:\Users\ketipakam\Source\repos\Algorithms\Algrthm\bin\Debug\Algrthm.exe
+C:\Users\ketipakam\Source\repos\Algorithms\Algrthm\bin\Debug\Algrthm.pdb
+C:\Users\ketipakam\Source\repos\Algorithms\Algrthm\obj\Debug\Algrthm.csproj.CoreCompileInputs.cache
+C:\Users\ketipakam\Source\repos\Algorithms\Algrthm\obj\Debug\Algrthm.exe
+C:\Users\ketipakam\Source\repos\Algorithms\Algrthm\obj\Debug\Algrthm.pdb

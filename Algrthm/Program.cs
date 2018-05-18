@@ -94,17 +94,25 @@ namespace Algrthm_DS
                     }
                     */
 
-            StudentCollection collections = new StudentCollection();
-            collections.AddStudent(new Student(100, "KK"));
-            collections.AddStudent(new Student(101, "Vikram"));
-            collections.AddStudent(new Student(102, "John"));
-            collections.AddStudent(new Student(103, "Paul"));
+            //StudentCollection collections = new StudentCollection();
+            //collections.AddStudent(new Student(100, "KK"));
+            //collections.AddStudent(new Student(101, "Vikram"));
+            //collections.AddStudent(new Student(102, "John"));
+            //collections.AddStudent(new Student(103, "Paul"));
 
 
-            foreach (Student item in collections)
-            {
-                Console.WriteLine($"Employee Id:{item.Id}  , his Name:{item.Name}");
-            }
+            //foreach (Student item in collections)
+            //{
+            //    Console.WriteLine($"Employee Id:{item.Id}  , his Name:{item.Name}");
+            //}
+
+            var output=Algrthm.String.UniqueInOrder.GetUniqueInOrder("");
+
+            var allowedString = string.Concat(output);
+
+            Console.WriteLine(allowedString);
+
+            Console.Read();
         }
     }
 }
